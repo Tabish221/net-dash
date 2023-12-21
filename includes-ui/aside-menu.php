@@ -148,14 +148,14 @@
             <div class="collapse" id="report-collapse">
                 <ul class="btn-toggle-nav pt-3 list-unstyled fw-normal pb-1 small">
                     <li>
-                        <a href="#" class="rounded">
+                        <a href="account.php" class="rounded">
                             <div class="nav-icon">
                                 <span class="material-symbols-outlined">account_balance</span>
                             </div>
                             Accounts
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#" class="rounded">
                             <div class="nav-icon">
                                 <span class="material-symbols-outlined">account_balance_wallet</span>
@@ -170,7 +170,7 @@
                             </div>
                             Expenses History
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="#" class="rounded">
                             <div class="nav-icon">
@@ -204,7 +204,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="rounded">
+                        <a href="expired-3-days.php" class="rounded">
                             <div class="nav-icon">
                                 <span class="material-symbols-outlined">group_remove</span>
                             </div>

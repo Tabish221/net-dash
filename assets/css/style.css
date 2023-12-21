@@ -4882,6 +4882,135 @@ table.selectTable tr td select {
   opacity: 1;
 }
 
+.accordion {
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 5px;
+}
+.accordion > li {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #DEDEDE;
+  background: #FFF;
+}
+.accordion > li.last {
+  margin-bottom: 0;
+}
+.accordion .acc_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 10px 0px 0px;
+  background: #F6F6F6;
+  padding: 10px;
+  gap: 20px;
+  cursor: pointer;
+}
+.accordion .acc_title .company {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.accordion .acc_title .company .company-icon {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  color: #3CD856;
+}
+.accordion .acc_title .company .company-icon span {
+  font-size: 22px;
+}
+.accordion .acc_title .company .company-name p {
+  color: #111;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.accordion .acc_title .company-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.accordion .acc_title .company-right h6 {
+  color: #111;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.accordion .acc_title .company-right h6 span {
+  color: #75D473;
+  font-size: 34px;
+}
+.accordion .acc_title .company-right .company-btn span {
+  padding: 5px;
+  border-radius: 2px;
+  color: #666;
+  transition: all 0.4s ease-in-out;
+}
+.accordion .acc_title .company-right .company-btn span:hover {
+  background-color: #fdfdfd;
+}
+.accordion .acc_desc {
+  padding-bottom: 10px;
+}
+.accordion .acc_desc ul {
+  max-height: 295px;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 10px 10px 0px 10px;
+}
+.accordion .acc_desc ul li {
+  padding: 10px;
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.accordion .acc_desc ul li.first {
+  border-top: none;
+}
+.accordion .acc_desc ul li.last {
+  border-bottom: none;
+}
+.accordion .acc_desc ul li .marchant {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.accordion .acc_desc ul li .marchant .marchant-icon {
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+}
+.accordion .acc_desc ul li .marchant .marchant-icon img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.accordion .acc_desc ul li .marchant .marchant-name {
+  color: #444;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+}
+.accordion .acc_desc ul li .marchant-amount span {
+  color: #444;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: normal;
+}
+
 /* header CSS */
 header {
   border-bottom: 1px solid #EEE;
@@ -5763,4 +5892,14 @@ aside.closedBar .aside-setting a .material-symbols-outlined {
 .customerAdd-serviceType .row:hover .serviceType-deleteBtn {
   opacity: 1;
   pointer-events: all;
+}
+
+.textbox-n {
+  width: 250px;
+  border: 1px solid #dadada !important;
+  height: 40px;
+  border-radius: 4px !important;
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 1.2;
 }/*# sourceMappingURL=style.css.map */
